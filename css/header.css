@@ -1,0 +1,43 @@
+/* Header */
+
+.header__contact {
+  border-bottom: 1px solid yellow;
+}
+
+.nav__contact .nav__ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav__link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#redes img {
+  max-width: 120%;
+  max-height: 120%;
+}
+
+.header__social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__socialLinks{
+    display: flex;
+    align-items: last baseline;
+}
+/*End Header */
